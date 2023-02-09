@@ -1,0 +1,39 @@
+/* Reset */
+
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+/* Generics */
+
+body{
+font-family: sans-serif;
+}
+
+header{
+background-color: #06131f;
+height: 100px;
+}
+
+main{
+height: calc(100vh - 100px);
+background-color:  #1c2d3c;
+overflow-y: auto;
+}
+
+#disks{
+    padding-bottom: 80px;
+}
+
+.card{
+background-color: #112030;
+color: white;
+padding: 20px;
+cursor: pointer;
+}
+
+.card:hover {
+transform: scale(1.1);
+}
